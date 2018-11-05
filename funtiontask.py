@@ -1,8 +1,13 @@
-def collatz(number):
-	if number%2==0:
-		print (number//2)
-		return
-	else:
-		print(3*number+1)
-		return
-collatz(9)
+while True:
+        number=int(input())
+        def collatz(number):
+                if number%2==0:
+                        return number//2
+                else:
+                        return 3*number+1
+        ans=collatz(number)
+        print(ans)
+        if ans==1:
+                break
+        else:
+                continue
