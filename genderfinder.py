@@ -1,4 +1,4 @@
-mycoll={'fero':'M','buvi':'F','mahi':'M'}
+mycoll={'fero':'M','buvi':'F','mahi':'M','lusu':'F'}
 while True:
     print('Enter the name to check')
     name=input()
